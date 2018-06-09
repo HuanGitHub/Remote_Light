@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+<view>
+</view>
+ <view style='margin-top:60px'>
+    <text style="color:red;">input devId</text>
+    <input style="border-bottom:3px solid blue;" type='text' bindconfirm='input_ID' adjust-position='true'></input>
+    <text style="color:red;">input API-KEY</text>
+    <input style="border-bottom:3px solid blue;" type='text' bindconfirm='input_Key' adjust-position='true'></input>
+  </view>
+  <view>
+  <button bindtap='Add_dev' style="color: white; background-color: #ff8719;margin-top:20px"><text>确认添加</text></button>
+  </view>
+</view>

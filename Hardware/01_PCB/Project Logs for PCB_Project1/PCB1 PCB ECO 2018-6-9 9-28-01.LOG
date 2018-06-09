@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=AMC_OUT Pin=J11-1
+Removed Pin From Net: NetName=48V Pin=J11-2
+Added Pin To Net: NetName=48V Pin=J11-1
+Added Pin To Net: NetName=AMC_OUT Pin=J11-2

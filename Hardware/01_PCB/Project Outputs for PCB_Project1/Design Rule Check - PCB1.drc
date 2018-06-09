@@ -1,0 +1,83 @@
+Protel Design System Design Rule Check
+PCB File : G:\实验项目\Remote_Light\Hardware\01_PCB\PCB1.PcbDoc
+Date     : 2018/6/9
+Time     : 11:58:46
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=1mil) (IsPad),(All)
+   Violation between Pad C3-2(2880mil,3477.52mil)  Top Layer and 
+                     Arc (2880mil,3635mil)  Top Overlay
+   Violation between Pad C3-1(2880mil,3792.48mil)  Top Layer and 
+                     Arc (2880mil,3635mil)  Top Overlay
+   Violation between Area Fill (1563mil,1351mil) (1573mil,1440mil)  Top Overlay and 
+                     Pad USB1-5(1584mil,1394mil)  Top Layer
+   Violation between Area Fill (1467mil,1350mil) (1477mil,1439mil)  Top Overlay and 
+                     Pad USB1-1(1456mil,1394mil)  Top Layer
+   Violation between Area Fill (1499mil,1350mil) (1509mil,1439mil)  Top Overlay and 
+                     Pad USB1-2(1488mil,1394mil)  Top Layer
+   Violation between Area Fill (1467mil,1350mil) (1477mil,1439mil)  Top Overlay and 
+                     Pad USB1-2(1488mil,1394mil)  Top Layer
+   Violation between Area Fill (1499mil,1350mil) (1509mil,1439mil)  Top Overlay and 
+                     Pad USB1-3(1520mil,1394mil)  Top Layer
+   Violation between Area Fill (1531mil,1351mil) (1541mil,1440mil)  Top Overlay and 
+                     Pad USB1-3(1520mil,1394mil)  Top Layer
+   Violation between Area Fill (1563mil,1351mil) (1573mil,1440mil)  Top Overlay and 
+                     Pad USB1-4(1552mil,1394mil)  Top Layer
+   Violation between Area Fill (1531mil,1351mil) (1541mil,1440mil)  Top Overlay and 
+                     Pad USB1-4(1552mil,1394mil)  Top Layer
+   Violation between Track (2785mil,3800.354mil)(2975mil,3800.354mil)  Top Overlay and 
+                     Pad C3-1(2880mil,3792.48mil)  Top Layer
+   Violation between Track (2714.646mil,3469.646mil)(3045.354mil,3469.646mil)  Top Overlay and 
+                     Pad C3-2(2880mil,3477.52mil)  Top Layer
+Rule Violations :12
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+   Violation between Pad USB1-4(1552mil,1394mil)  Top Layer and 
+                     Pad USB1-5(1584mil,1394mil)  Top Layer
+   Violation between Pad USB1-2(1488mil,1394mil)  Top Layer and 
+                     Pad USB1-1(1456mil,1394mil)  Top Layer
+   Violation between Pad USB1-3(1520mil,1394mil)  Top Layer and 
+                     Pad USB1-2(1488mil,1394mil)  Top Layer
+   Violation between Pad USB1-4(1552mil,1394mil)  Top Layer and 
+                     Pad USB1-3(1520mil,1394mil)  Top Layer
+Rule Violations :4
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint (118.11mil > 100mil) : Pad Free-(3150mil,1165mil)  Multi-Layer
+   Violation between Hole Size Constraint (118.11mil > 100mil) : Pad Free-(1145mil,3875mil)  Multi-Layer
+   Violation between Hole Size Constraint (118.11mil > 100mil) : Pad Free-(3150mil,3875mil)  Multi-Layer
+   Violation between Hole Size Constraint (118.11mil > 100mil) : Pad Free-(1145mil,1165mil)  Multi-Layer
+Rule Violations :4
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=100mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 20
+Time Elapsed        : 00:00:00

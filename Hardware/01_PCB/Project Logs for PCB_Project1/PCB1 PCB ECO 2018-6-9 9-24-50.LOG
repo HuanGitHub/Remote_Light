@@ -1,0 +1,7 @@
+Added Component: Designator=J11(TML-2-5.08)
+Added Pin To Net: NetName=VCC_48V Pin=J11-2
+Change Net Name : Old Net Name=VCC_48V New Net Name=48V
+Added Pin To Net: NetName=AMC_OUT Pin=*1-5
+Added Pin To Net: NetName=AMC_OUT Pin=J11-1
+Added Net: Name=AMC_OUT
+Added Member To Class: ClassName=Sheet1 Member=Component J11 CON2

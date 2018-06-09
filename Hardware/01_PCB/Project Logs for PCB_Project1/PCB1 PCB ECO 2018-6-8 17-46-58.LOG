@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=Sheet1 Member=J2
+Change Component Footprint: Designator=R3 Old Footprint=AXIAL-0.7 New Footprint=RES ADJ-3296W
+Change Component Footprint: Designator=*1 Old Footprint=TO-252 New Footprint=TO-252-5L
+Added Pin To Net: NetName=IO5 Pin=*1-4

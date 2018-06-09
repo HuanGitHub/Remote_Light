@@ -1,0 +1,13 @@
+---- kTypeSimpleJsonWithoutTime Matches (12 in 3 files) ----
+MKFUN_PACKET_SAVE_DATA in EdpKit.c :         case kTypeSimpleJsonWithoutTime:                        \
+MKFUN_PACKET_SAVE_DATA_TYPE2 in EdpKit.c :                                      kTypeSimpleJsonWithoutTime, msg_id); \
+MKFUN_UNPACK_SAVE_DATA in EdpKit.c :         case kTypeSimpleJsonWithoutTime:                        \
+EdpKit.h line 102 :     kTypeSimpleJsonWithoutTime = 0x03,
+EdpKit.h line 525 :  *                      kTypeSimpleJsonWithoutTime, kTypeSimpleJsonWithTime
+EdpKit.h line 555 :  *                      kTypeSimpleJsonWithoutTime, kTypeSimpleJsonWithTime
+EdpKit.h line 585 :  *                      kTypeSimpleJsonWithoutTime, kTypeSimpleJsonWithTime
+EdpKit.h line 615 :  *                      kTypeSimpleJsonWithoutTime, kTypeSimpleJsonWithTime
+EdpKit.h line 635 :  *                      kTypeSimpleJsonWithoutTime, kTypeSimpleJsonWithTime
+EdpKit.h line 655 :  *                      kTypeSimpleJsonWithoutTime, kTypeSimpleJsonWithTime
+recv_thread_func in Main.c :                         || jsonorbin == kTypeSimpleJsonWithoutTime
+main in Main.c :             if (c == '4') data_type = kTypeSimpleJsonWithoutTime;

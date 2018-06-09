@@ -1,0 +1,4 @@
+Added Component: Designator=J1(TML-2-5.08)
+Added Pin To Net: NetName=220N Pin=J1-1
+Added Pin To Net: NetName=220L Pin=J1-2
+Added Member To Class: ClassName=Sheet1 Member=Component J1 CON2
