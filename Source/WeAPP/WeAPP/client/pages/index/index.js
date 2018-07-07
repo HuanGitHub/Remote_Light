@@ -20,10 +20,11 @@ Page({
     text_data: '暂无数据'
 
   },
+  
   get_Devinfo: function () {
     Sql_flag = 'SELE'
     OpenId = wx.getStorageSync("OPENID")
-    console.log("OpenId:" + OpenId)
+  //  console.log("OpenId:" + OpenId)
     if (OpenId == '') {
 
     } else {
@@ -55,6 +56,7 @@ Page({
   onLoad: function () {
     this.login()
     // this.get_Devinfo()
+    this.get_Devinfo()
 
   },
   userInfoHandler: function (res) {
@@ -169,18 +171,6 @@ Page({
     })
   },
 
-  login1: function () {
-    if (this.data.logged) return
-
-    util.showBusy('正在登录')
-    var that = this
-
-    // 调用登录接口
-    qcloud.login({
-   
-    })
-  },
-
   login: function () {
     if (this.data.logged) return
 
@@ -190,6 +180,7 @@ Page({
     // 调用登录接口
     qcloud.login({
       success(result) {
+      //  console.log("result:"+result)
         if (result) {
           util.showSuccess('登录成功')
           that.setData({
@@ -224,5 +215,9 @@ Page({
         console.log('登录失败', error)
       }
     })
+  },
+  onPullDownRefresh: function () {
+    this.get_Devinfo()
+    console.log("freshing")
   },
 })

@@ -10,5 +10,8 @@
   </view>
   <view>
   <button bindtap='Add_dev' style="color: white; background-color: #ff8719;margin-top:20px"><text>确认添加</text></button>
+  
+  <button bindtap='Scan_dev' style="color: white; background-color: #ff8719;margin-top:20px"><text>扫描二维码添加</text></button>
+
   </view>
 </view>

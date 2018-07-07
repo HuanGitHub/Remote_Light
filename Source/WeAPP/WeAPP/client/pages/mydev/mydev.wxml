@@ -1,11 +1,11 @@
 <view>
   <view style='margin-top:80px'>
-    <text style="color:red;">input devId   </text>
+    <text style="color:red;">设备号: </text>
     <text>{{DEVID}}</text>
     </view>
     <view>
-    <text style="color:red;">input API-KEY</text>
-    <text>{{API_KEY}}</text>
+ 
+
     
     
   </view>

@@ -7,7 +7,7 @@ var S_inputKey = 0;
 var OpenId = 0;
 var S_session = 0;
 var Sql_flag = 0;
-//var  =0;
+var strarr;
 Page({
 
   /**
@@ -31,7 +31,7 @@ Page({
     Sql_flag = "INSTER"
     OpenId =    wx.getStorageSync("OPENID")
     S_session = Session.get();
-    console.log(OpenId)
+  //  console.log(OpenId)
     if (OpenId==''){
       console.log("用户未登录")
       Utils.showModel("添加失败","请登录后重试")
@@ -46,11 +46,41 @@ Page({
       }
       )
     }
-    
-    
+  },
+  Scan_dev:function(){
+    wx.scanCode({
+      onlyFromCamera: true,
+      success: (res) => {
+        var ret = res.result
+        //ret = "how old are you"
+        strarr = ret.split(" ")
+
+        console.log("strarr[0]: " + strarr[0])
+        console.log("strarr[1]: " + strarr[1])
+        S_inputId = strarr[0]
+        S_inputKey = strarr[1]
+        Sql_flag = "INSTER"
+        OpenId = wx.getStorageSync("OPENID")
+        S_session = Session.get();
+      //  console.log(OpenId)
+        if (OpenId == '') {
+          console.log("用户未登录")
+          Utils.showModel("添加失败", "请登录后重试")
+        } else {
+          wx.request({
+            url: config.service.DB_url + "?OpenId=" + OpenId + "&Userinfo=" + S_session + "&DevNum=" + S_inputId + "&DevKey=" + S_inputKey + "&Sql_flag=" + Sql_flag,
+
+            success: function (res) {
+              console.log(res.data)
+              Utils.showSuccess("添加设备成功")
+            }
+          }
+          )
+        }
+      }
+    })
 
   },
-  
   /**
    * 生命周期函数--监听页面加载
    */

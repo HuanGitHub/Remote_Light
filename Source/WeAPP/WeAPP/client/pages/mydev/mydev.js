@@ -12,7 +12,6 @@ Page({
   data: {
     API_KEY: 'xxxx',
     DEVID: 'xxxx',
-    tt:'11'
   },
   get_dev: function () {
     Sql_flag = "SELE"
@@ -48,14 +47,13 @@ Page({
   },
   Del_dev:function()
   {
-    console.log("tt: "+this.tt)
     var that = this
     Sql_flag = "DEL"
     DevNum = this.data.DEVID
    // console.log("DevNum"+DevNum)
     OpenId = wx.getStorageSync("OPENID")
     wx.request({
-      url: config.service.DB_url + '?Sql_flag=' + Sql_flag + "&OpenId=" + OpenId +"&DevNum="+DevNum,
+      url: config.service.DB_url + '?Sql_fl ag=' + Sql_flag + "&OpenId=" + OpenId +"&DevNum="+DevNum,
       success: function (res) {
        console.log(res.data)
        Utils.showSuccess('删除设备成功')
