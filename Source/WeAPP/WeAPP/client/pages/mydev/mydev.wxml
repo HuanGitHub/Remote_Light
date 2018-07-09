@@ -1,0 +1,18 @@
+<view>
+  <view style='margin-top:80px'>
+    <text style="color:red;">设备号: </text>
+    <text>{{DEVID}}</text>
+    </view>
+    <view>
+ 
+
+    
+    
+  </view>
+   <view>
+ <button bindtap='Del_dev' style="color: white; background-color: #ff8719;margin-top:20px"><text>删除设备</text></button>
+  </view>
+
+
+
+</view>

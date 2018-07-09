@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="userinfo" bindtap="login">
+    <image class="userinfo-avatar" src="{{logged ? userInfo.avatarUrl : './user-unlogin.png'}}" background-size="cover"></image>
+    <view>
+
+      <text class="userinfo-nickname">{{logged ? userInfo.nickName : '点击登录'}}</text>
+
+      <text class="userinfo-nickname" wx:if="{{logged}}">{{userInfo.lastLoginTime}}</text>
+    </view>
+  </view>
+
+  <view style="margin-top:50px">
+   
+    <button style="color: white; background-color: #ff8719; margin-top:20px" bindtap='send_data1'>打开</button>
+    <button style="color: white; background-color: #ff8719;margin-top:50px" bindtap='send_data0'>关闭</button>
+    
+  </view>
+  <view class="body-view" style="margin-top:50px">
+    
+    <switch bindchange="switch2Change"/>
+</view>
+
+  <view style="margin-top:20px">
+   
+  </view>
+  <view style="margin-top:20px">
+  <textarea auto-height="true">{{text_data}}</textarea>
+  </view>
+</view>
