@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=RXD Pin=ESP1-21
+Added Pin To Net: NetName=RXD Pin=J2-3
+Added Net: Name=RXD
+Added Pin To Net: NetName=TXD Pin=ESP1-22
+Added Pin To Net: NetName=TXD Pin=J2-2
+Added Net: Name=TXD
+Added Room: Name=WIFI

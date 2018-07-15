@@ -1,0 +1,6 @@
+Added Component: Designator=USB1(USB-MINI)
+Added Pin To Net: NetName=VCC_3.3V Pin=USB1-1
+Added Pin To Net: NetName=TXD Pin=USB1-2
+Added Pin To Net: NetName=RXD Pin=USB1-3
+Added Pin To Net: NetName=GND Pin=USB1-5
+Added Member To Class: ClassName=WIFI Member=Component USB1 USB

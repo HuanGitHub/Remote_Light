@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=J3-1
+Removed Pin From Net: NetName=TXD Pin=J3-2
+Removed Pin From Net: NetName=RXD Pin=J3-3
+Removed Pin From Net: NetName=VCC_3.3V Pin=J3-4
+Removed Member From Class: ClassName=WIFI Member=J3

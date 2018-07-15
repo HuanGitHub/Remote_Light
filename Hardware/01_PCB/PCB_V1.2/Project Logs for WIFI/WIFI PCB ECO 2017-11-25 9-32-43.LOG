@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=PB15 Pin=D7-2
+Removed Pin From Net: NetName=PC11 Pin=R19-1
+Removed Pin From Net: NetName=PC11 Pin=S3-1
+Added Pin To Net: NetName=PC11 Pin=D7-2
+Added Pin To Net: NetName=PB15 Pin=R19-1
+Added Pin To Net: NetName=PB15 Pin=S3-1
+Added Room: Name=WIFI

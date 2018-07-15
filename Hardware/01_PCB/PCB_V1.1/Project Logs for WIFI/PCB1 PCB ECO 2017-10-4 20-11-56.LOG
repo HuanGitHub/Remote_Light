@@ -1,0 +1,7 @@
+Added Component: Designator=K1(5V-5)
+Added Pin To Net: NetName=1_220L Pin=K1-1
+Added Pin To Net: NetName=NetJ5_2 Pin=K1-2
+Added Pin To Net: NetName=NetJ5_3 Pin=K1-3
+Added Pin To Net: NetName=3.3V1 Pin=K1-4
+Added Pin To Net: NetName=NetD3_2 Pin=K1-5
+Added Member To Class: ClassName=WIFI Member=Component K1 Relay-SPDT

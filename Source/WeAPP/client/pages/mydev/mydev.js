@@ -11,8 +11,7 @@ Page({
    */
   data: {
     API_KEY: 'xxxx',
-    DEVID: 'xxxx',
-    tt:'11'
+    DEVID: '当前无设备,请添加',
   },
   get_dev: function () {
     Sql_flag = "SELE"
@@ -33,7 +32,7 @@ Page({
             Utils.showModel("设备为空","请添加设备后查询")
             that.setData({
               API_KEY: 'xxxx',
-              DEVID: 'xxxx',
+              DEVID: '当前无设备,请添加',
             })
           }else{
             //console.log(rev)
@@ -48,12 +47,12 @@ Page({
   },
   Del_dev:function()
   {
-    console.log("tt: "+this.tt)
     var that = this
     Sql_flag = "DEL"
     DevNum = this.data.DEVID
-   // console.log("DevNum"+DevNum)
+    console.log("DevNum"+DevNum)
     OpenId = wx.getStorageSync("OPENID")
+    console.log("OpenId" + OpenId)
     wx.request({
       url: config.service.DB_url + '?Sql_flag=' + Sql_flag + "&OpenId=" + OpenId +"&DevNum="+DevNum,
       success: function (res) {
@@ -103,7 +102,7 @@ Page({
    */
   onPullDownRefresh: function () {
     this.get_dev()
-    console.log("freshing")
+    wx.stopPullDownRefresh()
   },
 
   /**

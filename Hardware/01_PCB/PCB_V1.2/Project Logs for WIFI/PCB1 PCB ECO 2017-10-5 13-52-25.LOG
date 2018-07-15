@@ -1,0 +1,6 @@
+Added Component: Designator=AC-DC1(220-5)
+Added Pin To Net: NetName=1_220L Pin=AC-DC1-1
+Added Pin To Net: NetName=1_220N Pin=AC-DC1-2
+Added Pin To Net: NetName=Net1_3 Pin=AC-DC1-3
+Added Pin To Net: NetName=GND1 Pin=AC-DC1-4
+Added Member To Class: ClassName=WIFI Member=Component AC-DC1 220¡ª5

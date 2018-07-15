@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=220OUT2 Pin=K1-2
+Removed Pin From Net: NetName=220OUT1 Pin=K1-3
+Removed Pin From Net: NetName=VCC_5V Pin=K1-4
+Removed Pin From Net: NetName=NetD2_1 Pin=K1-5
+Added Pin To Net: NetName=VCC_5V Pin=K1-2
+Added Pin To Net: NetName=NetD2_1 Pin=K1-3
+Added Pin To Net: NetName=220OUT2 Pin=K1-4
+Added Pin To Net: NetName=220OUT1 Pin=K1-5

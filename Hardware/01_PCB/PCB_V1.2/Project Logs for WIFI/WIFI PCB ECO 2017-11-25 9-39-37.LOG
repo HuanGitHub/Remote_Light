@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=PA11 Pin=R19-1
+Removed Pin From Net: NetName=PA12 Pin=R23-1
+Removed Pin From Net: NetName=PA11 Pin=S3-1
+Removed Pin From Net: NetName=PA12 Pin=S4-1
+Added Pin To Net: NetName=PA12 Pin=R19-1
+Added Pin To Net: NetName=PA11 Pin=R23-1
+Added Pin To Net: NetName=PA12 Pin=S3-1
+Added Pin To Net: NetName=PA11 Pin=S4-1
+Added Room: Name=WIFI

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetQ3_2 Pin=Q3-2
+Removed Pin From Net: NetName=GND Pin=Q3-3
+Added Pin To Net: NetName=GND Pin=Q3-2
+Added Pin To Net: NetName=NetQ3_2 Pin=Q3-3
+Added Member To Class: ClassName=WIFI Member=Component R12 Res
+Added Room: Name=WIFI

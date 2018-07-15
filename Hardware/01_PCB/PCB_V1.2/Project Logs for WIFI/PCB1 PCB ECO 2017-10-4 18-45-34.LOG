@@ -1,0 +1,22 @@
+Added Component: Designator=*2(LQFP48_M)
+Added Pin To Net: NetName=3.3V2 Pin=*2-1
+Added Pin To Net: NetName=Net*2_5 Pin=*2-5
+Added Pin To Net: NetName=Net*2_6 Pin=*2-6
+Added Pin To Net: NetName=RESET Pin=*2-7
+Added Pin To Net: NetName=GND2 Pin=*2-8
+Added Pin To Net: NetName=3.3V2 Pin=*2-9
+Added Pin To Net: NetName=PA2 Pin=*2-12
+Added Pin To Net: NetName=PB0 Pin=*2-18
+Added Pin To Net: NetName=PB1 Pin=*2-19
+Added Pin To Net: NetName=BOOT1 Pin=*2-20
+Added Pin To Net: NetName=GND2 Pin=*2-23
+Added Pin To Net: NetName=3.3V2 Pin=*2-24
+Added Pin To Net: NetName=PB15 Pin=*2-28
+Added Pin To Net: NetName=PA13 Pin=*2-34
+Added Pin To Net: NetName=GND2 Pin=*2-35
+Added Pin To Net: NetName=3.3V2 Pin=*2-36
+Added Pin To Net: NetName=PA14 Pin=*2-37
+Added Pin To Net: NetName=BOOT0 Pin=*2-44
+Added Pin To Net: NetName=GND2 Pin=*2-47
+Added Pin To Net: NetName=3.3V2 Pin=*2-48
+Added Member To Class: ClassName=WIFI Member=Component *2 STM32F103C8T6

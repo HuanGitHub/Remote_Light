@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND2 Pin=J?-2
+Removed Member From Class: ClassName=WIFI Member=J?
+Change Component Designator: OldDesignator=J6 NewDesignator=J8
+Change Component Designator: OldDesignator=J7 NewDesignator=J9
+Change Component Designator: OldDesignator=J8 NewDesignator=J10
+Change Component Designator: OldDesignator=J9 NewDesignator=J11
+Change Component Designator: OldDesignator=J10 NewDesignator=J12
+Change Component Designator: OldDesignator=J11 NewDesignator=J13
+Change Component Designator: OldDesignator=J? NewDesignator=J6
+Change Component Designator: OldDesignator=J? NewDesignator=J7
+Added Pin To Net: NetName=GND1 Pin=J6-2
+Added Pin To Net: NetName=GND Pin=J7-1
+Added Pin To Net: NetName=GND2 Pin=J7-2
+Added Pin To Net: NetName=3.3V Pin=J7-3
+Added Pin To Net: NetName=3.3V2_V Pin=J7-4
+Added Member To Class: ClassName=WIFI Member=Component J12 CON2
+Added Member To Class: ClassName=WIFI Member=Component J13 CON2

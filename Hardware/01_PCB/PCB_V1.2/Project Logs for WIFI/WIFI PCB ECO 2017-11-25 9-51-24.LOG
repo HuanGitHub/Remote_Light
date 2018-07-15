@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=PC0/ADC10 Pin=J4-3
+Removed Pin From Net: NetName=PC1/ADC11 Pin=J4-4
+Removed Pin From Net: NetName=PC2/ADC12 Pin=J4-5
+Removed Pin From Net: NetName=PC3/ADC13 Pin=J4-6
+Removed Pin From Net: NetName=PC4/ADC14 Pin=J4-7
+Removed Pin From Net: NetName=PC5/ADC15 Pin=J4-8
+Added Pin To Net: NetName=PC3/ADC13 Pin=J4-3
+Added Pin To Net: NetName=PC2/ADC12 Pin=J4-4
+Added Pin To Net: NetName=PC1/ADC11 Pin=J4-5
+Added Pin To Net: NetName=PC0/ADC10 Pin=J4-6
+Added Room: Name=WIFI

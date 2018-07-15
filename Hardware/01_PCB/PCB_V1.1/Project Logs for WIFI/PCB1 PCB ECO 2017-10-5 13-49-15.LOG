@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=BOOT0 Pin=*3-2
+Removed Pin From Net: NetName=GND2 Pin=*3-3
+Removed Pin From Net: NetName=GND2 Pin=*3-4
+Removed Pin From Net: NetName=BOOT1 Pin=*3-5
+Removed Pin From Net: NetName=1_TXD Pin=J3-3
+Added Pin To Net: NetName=GND2 Pin=*3-2
+Added Pin To Net: NetName=BOOT0 Pin=*3-3
+Added Pin To Net: NetName=BOOT1 Pin=*3-4
+Added Pin To Net: NetName=GND2 Pin=*3-5
+Added Pin To Net: NetName=1_RXD Pin=J3-3

@@ -11,15 +11,19 @@
     </view>
   </view>
 
-  <view>
-    <button style="color: black; background-color: #ff8719;margin-top:20px" type="default" size="default" bindtap='get_data'>查看数据</button>
-    <button style="color: white; background-color: #ff8719; margin-top:20px" bindtap='send_data1'>开灯</button>
-    <button style="color: white; background-color: #ff8719;margin-top:20px" bindtap='send_data0'>关灯</button>
-    <button style="color: white; background-color: #ff8719;margin-top:20px" bindtap='Save_data'>连接数据库</button>
+  <view style="margin-top:50px">
+   
+    <button style="color: white; background-color: #ff8719; margin-top:20px" bindtap='send_data1'>打开</button>
+    <button style="color: white; background-color: #ff8719;margin-top:50px" bindtap='send_data0'>关闭</button>
+    
   </view>
+  <view class="body-view" style="margin-top:50px">
+    
+    <switch checked="{{checked}}"bindchange="switch2Change"/>
+</view>
 
   <view style="margin-top:20px">
-    <button style="color: white; background-color: #f00019;margin-top:20px" open-type='getUserInfo' bindgetuserinfo="userInfoHandler">点击授权信息</button>
+   
   </view>
   <view style="margin-top:20px">
   <textarea auto-height="true">{{text_data}}</textarea>

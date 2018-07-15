@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=220L_OUT Pin=J4-2
+Added Pin To Net: NetName=220L_OUT Pin=K1-5
+Added Member To Class: ClassName=WIFI Member=Component J4 CON2

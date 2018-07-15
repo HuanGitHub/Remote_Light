@@ -1,0 +1,5 @@
+Change Component Comment : Designator=3 Old Comment=R12 New Comment=*
+Added Component: Designator=D4(DO-214AC/SMA)
+Added Component: Designator=D8(DO-214AC/SMA)
+Added Member To Class: ClassName=WIFI Member=Component D4 1N5824
+Added Member To Class: ClassName=WIFI Member=Component D8 1N5824

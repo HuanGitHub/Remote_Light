@@ -1,0 +1,109 @@
+Protel Design System Design Rule Check
+PCB File : G:\实验项目\Remote_Light\Hardware\01_PCB\PCB_V1.2\PCB1.PcbDoc
+Date     : 2018/7/14
+Time     : 13:46:52
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=4mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=5mil) (IsPad),(All)
+   Violation between Pad C3-1(2920mil,3067.52mil)  Top Layer and 
+                     Arc (2920mil,3225mil)  Top Overlay
+   Violation between Pad C3-2(2920mil,3382.48mil)  Top Layer and 
+                     Arc (2920mil,3225mil)  Top Overlay
+   Violation between Pad C1-1(2920mil,2602.52mil)  Top Layer and 
+                     Arc (2920mil,2760mil)  Top Overlay
+   Violation between Pad C1-2(2920mil,2917.48mil)  Top Layer and 
+                     Arc (2920mil,2760mil)  Top Overlay
+   Violation between Track (2754.646mil,3390.354mil)(3085.354mil,3390.354mil)  Top Overlay and 
+                     Pad C3-2(2920mil,3382.48mil)  Top Layer
+   Violation between Track (2825mil,3059.646mil)(3015mil,3059.646mil)  Top Overlay and 
+                     Pad C3-1(2920mil,3067.52mil)  Top Layer
+   Violation between Track (2754.646mil,2925.354mil)(3085.354mil,2925.354mil)  Top Overlay and 
+                     Pad C1-2(2920mil,2917.48mil)  Top Layer
+   Violation between Track (2825mil,2594.646mil)(3015mil,2594.646mil)  Top Overlay and 
+                     Pad C1-1(2920mil,2602.52mil)  Top Layer
+   Violation between Area Fill (1867mil,2091mil) (1877mil,2180mil)  Bottom Overlay and 
+                     Pad USB1-5(1856mil,2134mil)  Bottom Layer
+   Violation between Track (1782.206mil,2152.208mil)(1839mil,2152.208mil)  Bottom Overlay and 
+                     Pad USB1-5(1856mil,2134mil)  Bottom Layer
+   Violation between Track (1839mil,2152.208mil)(1839mil,2182mil)  Bottom Overlay and 
+                     Pad USB1-5(1856mil,2134mil)  Bottom Layer
+   Violation between Track (1782.764mil,2088.137mil)(2056.386mil,2088.137mil)  Bottom Overlay and 
+                     Pad USB1-5(1856mil,2134mil)  Bottom Layer
+   Violation between Area Fill (1963mil,2090mil) (1973mil,2179mil)  Bottom Overlay and 
+                     Pad USB1-1(1984mil,2134mil)  Bottom Layer
+   Violation between Track (2001mil,2152.208mil)(2023.792mil,2152.208mil)  Bottom Overlay and 
+                     Pad USB1-1(1984mil,2134mil)  Bottom Layer
+   Violation between Track (2001mil,2152.208mil)(2001mil,2182mil)  Bottom Overlay and 
+                     Pad USB1-1(1984mil,2134mil)  Bottom Layer
+   Violation between Track (1782.764mil,2088.137mil)(2056.386mil,2088.137mil)  Bottom Overlay and 
+                     Pad USB1-1(1984mil,2134mil)  Bottom Layer
+   Violation between Area Fill (1931mil,2090mil) (1941mil,2179mil)  Bottom Overlay and 
+                     Pad USB1-2(1952mil,2134mil)  Bottom Layer
+   Violation between Area Fill (1963mil,2090mil) (1973mil,2179mil)  Bottom Overlay and 
+                     Pad USB1-2(1952mil,2134mil)  Bottom Layer
+   Violation between Track (1782.764mil,2088.137mil)(2056.386mil,2088.137mil)  Bottom Overlay and 
+                     Pad USB1-2(1952mil,2134mil)  Bottom Layer
+   Violation between Area Fill (1899mil,2091mil) (1909mil,2180mil)  Bottom Overlay and 
+                     Pad USB1-3(1920mil,2134mil)  Bottom Layer
+   Violation between Area Fill (1931mil,2090mil) (1941mil,2179mil)  Bottom Overlay and 
+                     Pad USB1-3(1920mil,2134mil)  Bottom Layer
+   Violation between Track (1920mil,1779mil)(1920mil,2088mil)  Bottom Overlay and 
+                     Pad USB1-3(1920mil,2134mil)  Bottom Layer
+   Violation between Track (1782.764mil,2088.137mil)(2056.386mil,2088.137mil)  Bottom Overlay and 
+                     Pad USB1-3(1920mil,2134mil)  Bottom Layer
+   Violation between Area Fill (1867mil,2091mil) (1877mil,2180mil)  Bottom Overlay and 
+                     Pad USB1-4(1888mil,2134mil)  Bottom Layer
+   Violation between Area Fill (1899mil,2091mil) (1909mil,2180mil)  Bottom Overlay and 
+                     Pad USB1-4(1888mil,2134mil)  Bottom Layer
+   Violation between Track (1782.764mil,2088.137mil)(2056.386mil,2088.137mil)  Bottom Overlay and 
+                     Pad USB1-4(1888mil,2134mil)  Bottom Layer
+Rule Violations :26
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+   Violation between Pad USB1-4(1888mil,2134mil)  Bottom Layer and 
+                     Pad USB1-5(1856mil,2134mil)  Bottom Layer
+   Violation between Pad USB1-2(1952mil,2134mil)  Bottom Layer and 
+                     Pad USB1-1(1984mil,2134mil)  Bottom Layer
+   Violation between Pad USB1-3(1920mil,2134mil)  Bottom Layer and 
+                     Pad USB1-2(1952mil,2134mil)  Bottom Layer
+   Violation between Pad USB1-4(1888mil,2134mil)  Bottom Layer and 
+                     Pad USB1-3(1920mil,2134mil)  Bottom Layer
+   Violation between Via (2790mil,1885mil) Top Layer to Bottom Layer and 
+                     Pad R1-1(2785mil,1835mil)  Bottom Layer
+Rule Violations :5
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=50mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 31
+Time Elapsed        : 00:00:00

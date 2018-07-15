@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=IO14 Pin=Q1-1
+Removed Pin From Net: NetName=IO12 Pin=Q2-1
+Removed Pin From Net: NetName=IO14 Pin=R5-2
+Removed Pin From Net: NetName=IO12 Pin=R6-2
+Removed Pin From Net: NetName=VCC_5V Pin=R8-1
+Removed Pin From Net: NetName=NetD5_1 Pin=R8-2
+Change Component Designator: OldDesignator=AC-DC NewDesignator=AC-DC1
+Added Component: Designator=R8(0805)
+Added Pin To Net: NetName=VCC_5V Pin=R8-1
+Added Pin To Net: NetName=NetD5_1 Pin=R8-2
+Added Pin To Net: NetName=IO9 Pin=ESP1-11
+Added Pin To Net: NetName=IO9 Pin=Q1-1
+Added Pin To Net: NetName=IO9 Pin=R5-2
+Added Net: Name=IO9
+Added Pin To Net: NetName=IO10 Pin=ESP1-12
+Added Pin To Net: NetName=IO10 Pin=Q2-1
+Added Pin To Net: NetName=IO10 Pin=R6-2
+Added Net: Name=IO10
+Added Member To Class: ClassName=WIFI Member=Component R8 Res

@@ -1,0 +1,9 @@
+Removed Member From Class: ClassName=WIFI Member=R12
+Change Component Comment : Designator=D4 Old Comment=1N5824 New Comment=1N5819
+Change Component Comment : Designator=D8 Old Comment=Diode New Comment=1N5819
+Change Component Designator: OldDesignator=3 NewDesignator=R12
+Added Component: Designator=S1(SW-×ÔËø-6P)
+Added Pin To Net: NetName=VCC_3.3V Pin=S1-1
+Added Pin To Net: NetName=NetESP1_3 Pin=S1-2
+Added Member To Class: ClassName=WIFI Member=Component S1 SW-DPDT
+Added Room: Name=WIFI

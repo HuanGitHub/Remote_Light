@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=IO12 Pin=2-2
+Removed Pin From Net: NetName=IO14 Pin=4-2
+Added Pin To Net: NetName=IO14 Pin=2-2
+Added Pin To Net: NetName=IO12 Pin=4-2
+Added Room: Name=WIFI

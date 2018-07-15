@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=220L Pin=AC-DC1-2
+Removed Pin From Net: NetName=220L Pin=J1-1
+Removed Pin From Net: NetName=220L Pin=J3-2
+Removed Pin From Net: NetName=VCC_5V Pin=R8-1
+Removed Pin From Net: NetName=NetD5_1 Pin=R8-2
+Added Component: Designator=R8(0805)
+Added Pin To Net: NetName=VCC_5V Pin=R8-1
+Added Pin To Net: NetName=NetD5_1 Pin=R8-2
+Added Pin To Net: NetName=220N Pin=AC-DC1-2
+Added Pin To Net: NetName=220N Pin=J1-1
+Added Pin To Net: NetName=220N Pin=J3-2
+Added Net: Name=220N
+Added Member To Class: ClassName=WIFI Member=Component R8 Res

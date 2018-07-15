@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=VCC_3.3V Pin=USB1-1
+Added Pin To Net: NetName=VCC_5V Pin=USB1-1

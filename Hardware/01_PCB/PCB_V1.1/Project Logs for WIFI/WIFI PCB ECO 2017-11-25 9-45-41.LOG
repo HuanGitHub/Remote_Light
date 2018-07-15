@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=PB8 Pin=D7-2
+Added Pin To Net: NetName=PB9 Pin=D7-2
+Added Room: Name=WIFI

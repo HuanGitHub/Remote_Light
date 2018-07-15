@@ -1,0 +1,6 @@
+Added Component: Designator=R20(0805)
+Added Pin To Net: NetName=NetC12_1 Pin=R20-2
+Added Pin To Net: NetName=Net6_6 Pin=6-6
+Added Pin To Net: NetName=Net6_6 Pin=R20-1
+Added Net: Name=Net6_6
+Added Member To Class: ClassName=WIFI Member=Component R20 Res

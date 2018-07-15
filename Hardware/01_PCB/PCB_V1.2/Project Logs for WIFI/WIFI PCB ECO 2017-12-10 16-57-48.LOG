@@ -1,0 +1,264 @@
+Added Component: Designator=1(SOT223)
+Added Component: Designator=2(MOC3051)
+Added Component: Designator=3(MOC3051)
+Added Component: Designator=4(MOC3051)
+Added Component: Designator=AC-DC1(POWER-220_5)
+Added Component: Designator=B1(TML-2-3.5)
+Added Component: Designator=C1(0805)
+Added Component: Designator=C2(0805)
+Added Component: Designator=C3(1206)
+Added Component: Designator=C4(1206)
+Added Component: Designator=C5(0805)
+Added Component: Designator=C6(0805)
+Added Component: Designator=C8(RAD0.5)
+Added Component: Designator=CH1(SOP16)
+Added Component: Designator=D1(LED0805)
+Added Component: Designator=D2(LED0805)
+Added Component: Designator=D3(LED0805)
+Added Component: Designator=D4(DO-214AC/SMA)
+Added Component: Designator=D5(LED0805)
+Added Component: Designator=D6(LED0805)
+Added Component: Designator=D8(DO-214AC/SMA)
+Added Component: Designator=D9(LED0805)
+Added Component: Designator=ESP1(ESP8266)
+Added Component: Designator=J3(TML-2-3.5)
+Added Component: Designator=J5(HDR1X2)
+Added Component: Designator=J8(TML-2-3.5)
+Added Component: Designator=J9(TML-2-3.5)
+Added Component: Designator=K1(5V-5)
+Added Component: Designator=K2(5V-5)
+Added Component: Designator=Q1(SOT-23)
+Added Component: Designator=Q2(TO-126)
+Added Component: Designator=Q4(TO-126)
+Added Component: Designator=Q5(TO-126)
+Added Component: Designator=Q6(SOT-23)
+Added Component: Designator=R1(0805)
+Added Component: Designator=R2(0805)
+Added Component: Designator=R3(0805)
+Added Component: Designator=R6(0805)
+Added Component: Designator=R13(0805)
+Added Component: Designator=R15(0805)
+Added Component: Designator=R16(0805)
+Added Component: Designator=R18(0805)
+Added Component: Designator=R23(0805)
+Added Component: Designator=R29(0805)
+Added Component: Designator=R30(0805)
+Added Component: Designator=R32(0805)
+Added Component: Designator=R33(0805)
+Added Component: Designator=R34(0805)
+Added Component: Designator=R35(0805)
+Added Component: Designator=R37(0805)
+Added Component: Designator=R38(0805)
+Added Component: Designator=S1(SW-自锁-6P)
+Added Component: Designator=U2(DIP4)
+Added Component: Designator=U5(DIP4)
+Added Component: Designator=Y1(XTAL)
+Added Pin To Net: NetName=GND Pin=1-1
+Added Pin To Net: NetName=VCC_3.3V Pin=1-2
+Added Pin To Net: NetName=VCC_5V Pin=1-3
+Added Pin To Net: NetName=Net2_1 Pin=2-1
+Added Pin To Net: NetName=IO12 Pin=2-2
+Added Pin To Net: NetName=Net2_4 Pin=2-4
+Added Pin To Net: NetName=Net2_6 Pin=2-6
+Added Pin To Net: NetName=Net3_1 Pin=3-1
+Added Pin To Net: NetName=IO13 Pin=3-2
+Added Pin To Net: NetName=Net3_4 Pin=3-4
+Added Pin To Net: NetName=Net3_6 Pin=3-6
+Added Pin To Net: NetName=Net4_1 Pin=4-1
+Added Pin To Net: NetName=IO14 Pin=4-2
+Added Pin To Net: NetName=Net4_4 Pin=4-4
+Added Pin To Net: NetName=Net4_6 Pin=4-6
+Added Pin To Net: NetName=220N Pin=AC-DC1-1
+Added Pin To Net: NetName=220L Pin=AC-DC1-2
+Added Pin To Net: NetName=VCC_5V Pin=AC-DC1-3
+Added Pin To Net: NetName=GND Pin=AC-DC1-4
+Added Pin To Net: NetName=NetB1_1 Pin=B1-1
+Added Pin To Net: NetName=GND Pin=B1-2
+Added Pin To Net: NetName=VCC_5V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=VCC_3.3V Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=VCC_5V Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=ESP_RELAY_O Pin=C8-1
+Added Pin To Net: NetName=220L Pin=C8-2
+Added Pin To Net: NetName=GND Pin=CH1-1
+Added Pin To Net: NetName=340GT Pin=CH1-2
+Added Pin To Net: NetName=340GR Pin=CH1-3
+Added Pin To Net: NetName=NetC2_1 Pin=CH1-4
+Added Pin To Net: NetName=D+ Pin=CH1-5
+Added Pin To Net: NetName=D- Pin=CH1-6
+Added Pin To Net: NetName=NetC6_2 Pin=CH1-7
+Added Pin To Net: NetName=NetC5_2 Pin=CH1-8
+Added Pin To Net: NetName=VCC_5V Pin=CH1-16
+Added Pin To Net: NetName=VCC_5V Pin=D1-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=340GR Pin=D2-1
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=340GT Pin=D3-1
+Added Pin To Net: NetName=NetD2_2 Pin=D3-2
+Added Pin To Net: NetName=NetD4_1 Pin=D4-1
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=VCC_5V Pin=D5-1
+Added Pin To Net: NetName=NetD4_1 Pin=D5-2
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=GND Pin=D6-2
+Added Pin To Net: NetName=NetD8_1 Pin=D8-1
+Added Pin To Net: NetName=NetD8_2 Pin=D8-2
+Added Pin To Net: NetName=VCC_5V Pin=D9-1
+Added Pin To Net: NetName=NetD8_1 Pin=D9-2
+Added Pin To Net: NetName=ADC Pin=ESP1-1
+Added Pin To Net: NetName=RST Pin=ESP1-2
+Added Pin To Net: NetName=NetESP1_3 Pin=ESP1-3
+Added Pin To Net: NetName=IO16 Pin=ESP1-4
+Added Pin To Net: NetName=IO14 Pin=ESP1-5
+Added Pin To Net: NetName=IO12 Pin=ESP1-6
+Added Pin To Net: NetName=IO13 Pin=ESP1-7
+Added Pin To Net: NetName=NetESP1_3 Pin=ESP1-8
+Added Pin To Net: NetName=GND Pin=ESP1-15
+Added Pin To Net: NetName=GND Pin=ESP1-16
+Added Pin To Net: NetName=IO2 Pin=ESP1-17
+Added Pin To Net: NetName=IO0 Pin=ESP1-18
+Added Pin To Net: NetName=IO4 Pin=ESP1-19
+Added Pin To Net: NetName=IO5 Pin=ESP1-20
+Added Pin To Net: NetName=340GT Pin=ESP1-21
+Added Pin To Net: NetName=340GR Pin=ESP1-22
+Added Pin To Net: NetName=220N Pin=J3-1
+Added Pin To Net: NetName=220L Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J5-1
+Added Pin To Net: NetName=IO0 Pin=J5-2
+Added Pin To Net: NetName=220OUT2 Pin=J8-1
+Added Pin To Net: NetName=220OUT1 Pin=J8-2
+Added Pin To Net: NetName=220N Pin=J9-2
+Added Pin To Net: NetName=VCC_5V Pin=K1-1
+Added Pin To Net: NetName=NetB1_1 Pin=K1-3
+Added Pin To Net: NetName=NetD4_2 Pin=K1-4
+Added Pin To Net: NetName=NetD4_1 Pin=K1-5
+Added Pin To Net: NetName=ESP_RELAY_I Pin=K2-1
+Added Pin To Net: NetName=220OUT2 Pin=K2-2
+Added Pin To Net: NetName=220OUT1 Pin=K2-3
+Added Pin To Net: NetName=NetD8_2 Pin=K2-4
+Added Pin To Net: NetName=NetD8_1 Pin=K2-5
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=NetD4_1 Pin=Q1-3
+Added Pin To Net: NetName=220L Pin=Q2-1
+Added Pin To Net: NetName=ESP_RELAY_O Pin=Q2-2
+Added Pin To Net: NetName=Net2_6 Pin=Q2-3
+Added Pin To Net: NetName=ESP_RELAY_O Pin=Q4-1
+Added Pin To Net: NetName=220OUT1 Pin=Q4-2
+Added Pin To Net: NetName=Net3_6 Pin=Q4-3
+Added Pin To Net: NetName=ESP_RELAY_O Pin=Q5-1
+Added Pin To Net: NetName=220OUT2 Pin=Q5-2
+Added Pin To Net: NetName=Net4_6 Pin=Q5-3
+Added Pin To Net: NetName=NetQ6_2 Pin=Q6-1
+Added Pin To Net: NetName=GND Pin=Q6-2
+Added Pin To Net: NetName=NetD8_1 Pin=Q6-3
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=NetD2_2 Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=NetD1_2 Pin=R2-2
+Added Pin To Net: NetName=VCC_5V Pin=R3-1
+Added Pin To Net: NetName=NetD4_2 Pin=R3-2
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=VCC_3.3V Pin=R6-2
+Added Pin To Net: NetName=NetD6_1 Pin=R13-1
+Added Pin To Net: NetName=VCC_3.3V Pin=R13-2
+Added Pin To Net: NetName=220L Pin=R15-1
+Added Pin To Net: NetName=Net2_6 Pin=R15-2
+Added Pin To Net: NetName=ESP_RELAY_O Pin=R16-1
+Added Pin To Net: NetName=220L Pin=R16-2
+Added Pin To Net: NetName=Net2_1 Pin=R18-1
+Added Pin To Net: NetName=VCC_3.3V Pin=R18-2
+Added Pin To Net: NetName=ESP_RELAY_O Pin=R23-1
+Added Pin To Net: NetName=Net2_4 Pin=R23-2
+Added Pin To Net: NetName=ESP_RELAY_O Pin=R29-1
+Added Pin To Net: NetName=Net3_6 Pin=R29-2
+Added Pin To Net: NetName=Net3_1 Pin=R30-1
+Added Pin To Net: NetName=VCC_3.3V Pin=R30-2
+Added Pin To Net: NetName=220OUT1 Pin=R32-1
+Added Pin To Net: NetName=Net3_4 Pin=R32-2
+Added Pin To Net: NetName=ESP_RELAY_O Pin=R33-1
+Added Pin To Net: NetName=Net4_6 Pin=R33-2
+Added Pin To Net: NetName=Net4_1 Pin=R34-1
+Added Pin To Net: NetName=VCC_3.3V Pin=R34-2
+Added Pin To Net: NetName=220OUT2 Pin=R35-1
+Added Pin To Net: NetName=Net4_4 Pin=R35-2
+Added Pin To Net: NetName=VCC_5V Pin=R37-1
+Added Pin To Net: NetName=NetD8_2 Pin=R37-2
+Added Pin To Net: NetName=NetR38_1 Pin=R38-1
+Added Pin To Net: NetName=VCC_3.3V Pin=R38-2
+Added Pin To Net: NetName=VCC_3.3V Pin=S1-1
+Added Pin To Net: NetName=NetESP1_3 Pin=S1-2
+Added Pin To Net: NetName=NetR6_1 Pin=U2-1
+Added Pin To Net: NetName=PC14 Pin=U2-2
+Added Pin To Net: NetName=NetQ1_2 Pin=U2-3
+Added Pin To Net: NetName=VCC_5V Pin=U2-4
+Added Pin To Net: NetName=NetR38_1 Pin=U5-1
+Added Pin To Net: NetName=IO4 Pin=U5-2
+Added Pin To Net: NetName=NetQ6_2 Pin=U5-3
+Added Pin To Net: NetName=VCC_5V Pin=U5-4
+Added Pin To Net: NetName=NetC6_2 Pin=Y1-1
+Added Pin To Net: NetName=NetC5_2 Pin=Y1-2
+Added Member To Class: ClassName=WIFI Member=Component 1 AMS1117
+Added Member To Class: ClassName=WIFI Member=Component 2 MOC3052
+Added Member To Class: ClassName=WIFI Member=Component 3 MOC3052
+Added Member To Class: ClassName=WIFI Member=Component 4 MOC3052
+Added Member To Class: ClassName=WIFI Member=Component AC-DC1 220—5
+Added Member To Class: ClassName=WIFI Member=Component B1 Motor
+Added Member To Class: ClassName=WIFI Member=Component C1 Cap
+Added Member To Class: ClassName=WIFI Member=Component C2 Cap
+Added Member To Class: ClassName=WIFI Member=Component C3 Cap
+Added Member To Class: ClassName=WIFI Member=Component C4 Cap
+Added Member To Class: ClassName=WIFI Member=Component C5 Cap
+Added Member To Class: ClassName=WIFI Member=Component C6 Cap
+Added Member To Class: ClassName=WIFI Member=Component C8 Cap
+Added Member To Class: ClassName=WIFI Member=Component CH1 CH340G
+Added Member To Class: ClassName=WIFI Member=Component D1 LED0
+Added Member To Class: ClassName=WIFI Member=Component D2 LED0
+Added Member To Class: ClassName=WIFI Member=Component D3 LED0
+Added Member To Class: ClassName=WIFI Member=Component D4 1N5819
+Added Member To Class: ClassName=WIFI Member=Component D5 LED1
+Added Member To Class: ClassName=WIFI Member=Component D6 LED0
+Added Member To Class: ClassName=WIFI Member=Component D8 1N5819
+Added Member To Class: ClassName=WIFI Member=Component D9 LED1
+Added Member To Class: ClassName=WIFI Member=Component ESP1 ESP8266-12E
+Added Member To Class: ClassName=WIFI Member=Component J3 CON2
+Added Member To Class: ClassName=WIFI Member=Component J5 CON2
+Added Member To Class: ClassName=WIFI Member=Component J8 CON2
+Added Member To Class: ClassName=WIFI Member=Component J9 CON2
+Added Member To Class: ClassName=WIFI Member=Component K1 Relay-SPDT
+Added Member To Class: ClassName=WIFI Member=Component K2 Relay-SPDT
+Added Member To Class: ClassName=WIFI Member=Component Q1 SS8050
+Added Member To Class: ClassName=WIFI Member=Component Q2 双向可控硅
+Added Member To Class: ClassName=WIFI Member=Component Q4 双向可控硅
+Added Member To Class: ClassName=WIFI Member=Component Q5 双向可控硅
+Added Member To Class: ClassName=WIFI Member=Component Q6 SS8050
+Added Member To Class: ClassName=WIFI Member=Component R1 Res
+Added Member To Class: ClassName=WIFI Member=Component R2 Res
+Added Member To Class: ClassName=WIFI Member=Component R3 Res
+Added Member To Class: ClassName=WIFI Member=Component R6 Res
+Added Member To Class: ClassName=WIFI Member=Component R13 Res
+Added Member To Class: ClassName=WIFI Member=Component R15 220k
+Added Member To Class: ClassName=WIFI Member=Component R16 Res2
+Added Member To Class: ClassName=WIFI Member=Component R18 330R
+Added Member To Class: ClassName=WIFI Member=Component R23 10K
+Added Member To Class: ClassName=WIFI Member=Component R29 330R
+Added Member To Class: ClassName=WIFI Member=Component R30 330R
+Added Member To Class: ClassName=WIFI Member=Component R32 330R
+Added Member To Class: ClassName=WIFI Member=Component R33 330R
+Added Member To Class: ClassName=WIFI Member=Component R34 330R
+Added Member To Class: ClassName=WIFI Member=Component R35 330R
+Added Member To Class: ClassName=WIFI Member=Component R37 Res
+Added Member To Class: ClassName=WIFI Member=Component R38 Res
+Added Member To Class: ClassName=WIFI Member=Component S1 SW-DPDT
+Added Member To Class: ClassName=WIFI Member=Component U2 Optoisolator1
+Added Member To Class: ClassName=WIFI Member=Component U5 Optoisolator1
+Added Member To Class: ClassName=WIFI Member=Component Y1 XTAL
+Added Room: Name=WIFI

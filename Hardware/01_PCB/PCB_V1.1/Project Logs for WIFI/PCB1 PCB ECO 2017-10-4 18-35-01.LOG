@@ -1,0 +1,24 @@
+Change Component Footprint: Designator=J5 Old Footprint=5.08端子3 New Footprint=3.5端子_3
+Added Component: Designator=J1(3.5端子_2)
+Added Component: Designator=J4(3.5端子_2)
+Added Component: Designator=J6(3.5端子_2)
+Added Component: Designator=J7(3.5端子_2)
+Added Component: Designator=J10(3.5端子_2)
+Added Component: Designator=J11(3.5端子_2)
+Added Pin To Net: NetName=1_220N Pin=J1-1
+Added Pin To Net: NetName=1_220L Pin=J1-2
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1
+Added Pin To Net: NetName=1_220N Pin=J4-2
+Added Pin To Net: NetName=GND Pin=J6-1
+Added Pin To Net: NetName=IO0 Pin=J6-2
+Added Pin To Net: NetName=220OUT2 Pin=J7-1
+Added Pin To Net: NetName=220OUT1 Pin=J7-2
+Added Pin To Net: NetName=220N Pin=J10-1
+Added Pin To Net: NetName=220L Pin=J10-2
+Added Pin To Net: NetName=220N Pin=J11-1
+Added Member To Class: ClassName=WIFI Member=Component J1 CON2
+Added Member To Class: ClassName=WIFI Member=Component J4 CON2
+Added Member To Class: ClassName=WIFI Member=Component J6 CON2
+Added Member To Class: ClassName=WIFI Member=Component J7 CON2
+Added Member To Class: ClassName=WIFI Member=Component J10 CON2
+Added Member To Class: ClassName=WIFI Member=Component J11 CON2

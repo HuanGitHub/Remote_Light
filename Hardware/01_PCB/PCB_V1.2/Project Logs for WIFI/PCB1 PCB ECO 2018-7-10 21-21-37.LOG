@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=VCC_3.3V Pin=S1-2
+Removed Member From Class: ClassName=WIFI Member=S1
+Added Pin To Net: NetName=VCC_3.3V Pin=ESP1-3
+Added Pin To Net: NetName=VCC_3.3V Pin=ESP1-8
+Added Room: Name=WIFI

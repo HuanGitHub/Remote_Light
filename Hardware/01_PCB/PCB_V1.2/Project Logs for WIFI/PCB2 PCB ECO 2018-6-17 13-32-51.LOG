@@ -1,0 +1,4 @@
+Added Component: Designator=J6(TML-2-5.08)
+Added Pin To Net: NetName=OTHER_OUT Pin=J6-1
+Added Pin To Net: NetName=220L Pin=J6-2
+Added Member To Class: ClassName=WIFI Member=Component J6 CON2

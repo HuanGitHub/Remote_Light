@@ -31,7 +31,7 @@ async function recv_data(ctx) {
 
     let OpenId = ctx.query.OpenId
     var res = await mysql('UserDev').where({
-      OpenId: OpenId,
+      OpenId,
     }).first()
     // 改
     //  await mysql("Book").update({ price: 66 }).where({ id })

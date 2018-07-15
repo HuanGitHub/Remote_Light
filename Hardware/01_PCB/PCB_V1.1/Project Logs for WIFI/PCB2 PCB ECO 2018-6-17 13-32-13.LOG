@@ -1,0 +1,8 @@
+Added Component: Designator=J1(TML-2-5.08)
+Added Component: Designator=J5(TML-2-5.08)
+Added Pin To Net: NetName=220N Pin=J1-1
+Added Pin To Net: NetName=220L Pin=J1-2
+Added Pin To Net: NetName=220L_OUT Pin=J5-1
+Added Pin To Net: NetName=220N Pin=J5-2
+Added Member To Class: ClassName=WIFI Member=Component J1 CON2
+Added Member To Class: ClassName=WIFI Member=Component J5 CON2

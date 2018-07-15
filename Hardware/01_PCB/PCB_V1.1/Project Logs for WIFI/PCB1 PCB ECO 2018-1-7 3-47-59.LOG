@@ -1,0 +1,5 @@
+Added Component: Designator=J3(HDR1X3)
+Added Pin To Net: NetName=220OUT2 Pin=J3-1
+Added Pin To Net: NetName=220OUT1 Pin=J3-3
+Added Member To Class: ClassName=WIFI Member=Component J3 CON3
+Added Room: Name=WIFI

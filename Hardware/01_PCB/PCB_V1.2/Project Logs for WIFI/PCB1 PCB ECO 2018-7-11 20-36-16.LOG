@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=OTHER_OUT Pin=J5-1
+Removed Pin From Net: NetName=220L Pin=J5-2
+Removed Member From Class: ClassName=WIFI Member=J5
+Added Room: Name=WIFI

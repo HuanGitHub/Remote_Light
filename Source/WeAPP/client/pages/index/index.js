@@ -20,10 +20,21 @@ Page({
     text_data: '暂无数据'
 
   },
+  
+  switch2Change: function (e) {
+    //console.log('switch2 发生 change 事件，携带值为', e.detail.value)
+    if (e.detail.value == true){
+      this.send_data1()
+    }else{
+      this.send_data0()
+    }
+
+
+  },
   get_Devinfo: function () {
     Sql_flag = 'SELE'
     OpenId = wx.getStorageSync("OPENID")
-    console.log("OpenId:" + OpenId)
+  //  console.log("OpenId:" + OpenId)
     if (OpenId == '') {
 
     } else {
@@ -55,6 +66,7 @@ Page({
   onLoad: function () {
     this.login()
     // this.get_Devinfo()
+  
 
   },
   userInfoHandler: function (res) {
@@ -108,11 +120,11 @@ Page({
         icon: 'none'
       })
     } else {
+      var that = this
       wx.request({
         url: CMD_OneNetURL + '?device_id=' + Dev_Id + '&qos=1&type=0',
         data: {
           LED1: 0
-
         },
         method: "POST",
         header: {
@@ -120,6 +132,9 @@ Page({
           'api-key': API_KEY// 默认值
         },
         success: function (res) {
+          that.setData({
+            checked:false
+          })
           console.log(res.data)
           util.showSuccess("Success")
         }
@@ -137,10 +152,11 @@ Page({
         icon: 'none'
       })
     } else {
+		var that = this
       wx.request({
         url: CMD_OneNetURL + '?device_id=' + Dev_Id + '&qos=1&type=0',
         data: {
-          LED1: 1
+          LED1:1
         },
         method: "POST",
         header: {
@@ -149,6 +165,9 @@ Page({
           //"Content-Type": "application/x-www-form-urlencoded"
         },
         success: function (res) {
+			 that.setData({
+            checked:true
+          })
           console.log(res.data)
           util.showSuccess("Success")
         }
@@ -169,18 +188,6 @@ Page({
     })
   },
 
-  login1: function () {
-    if (this.data.logged) return
-
-    util.showBusy('正在登录')
-    var that = this
-
-    // 调用登录接口
-    qcloud.login({
-   
-    })
-  },
-
   login: function () {
     if (this.data.logged) return
 
@@ -190,6 +197,7 @@ Page({
     // 调用登录接口
     qcloud.login({
       success(result) {
+      //  console.log("result:"+result)
         if (result) {
           util.showSuccess('登录成功')
           that.setData({
@@ -225,4 +233,10 @@ Page({
       }
     })
   },
+  onPullDownRefresh: function () {
+    this.get_Devinfo()
+    wx.stopPullDownRefresh()
+  },
+
+
 })

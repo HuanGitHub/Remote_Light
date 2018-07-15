@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=VCC_5V Pin=D9-1
+Removed Pin From Net: NetName=220OUT2 Pin=K2-2
+Removed Pin From Net: NetName=220OUT1 Pin=K2-3
+Removed Pin From Net: NetName=GND Pin=Q6-2
+Removed Pin From Net: NetName=VCC_5V Pin=R37-1
+Removed Pin From Net: NetName=VCC_3.3V Pin=R38-2
+Removed Pin From Net: NetName=IO4 Pin=U5-2
+Removed Pin From Net: NetName=VCC_5V Pin=U5-4
+Removed Member From Class: ClassName=WIFI Member=D8
+Removed Member From Class: ClassName=WIFI Member=D9
+Removed Member From Class: ClassName=WIFI Member=K2
+Removed Member From Class: ClassName=WIFI Member=Q6
+Removed Member From Class: ClassName=WIFI Member=R37
+Removed Member From Class: ClassName=WIFI Member=R38
+Removed Member From Class: ClassName=WIFI Member=U5
+Change Net Name : Old Net Name=ESP_RELAY_O New Net Name=NetC8_1
+Added Room: Name=WIFI
