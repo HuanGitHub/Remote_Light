@@ -11,7 +11,7 @@ Page({
    */
   data: {
     API_KEY: 'xxxx',
-    DEVID: '当前无设备,请添加',
+    DEVID: 'xxx',
   },
   get_dev: function () {
     Sql_flag = "SELE"
